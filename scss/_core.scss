@@ -1,0 +1,142 @@
+body {
+  font-family: 'TT Travels', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%
+}
+
+.container { 
+  @include min-max(320px, 100%); 
+}
+
+
+.wrap {
+  @include min-max(320px, 1440px);
+  width: 100%;
+  padding: 0 8.813rem;
+  box-sizing: border-box;
+}
+
+.about-wrap {
+  @include min-max(320px, 1440px);
+  width: 100%;
+  padding: 0 6.5rem;
+  box-sizing: border-box;
+}
+
+.requirement-wrap {
+  @include min-max(320px, 1440px);
+  width: 100%;
+  padding: 0 12.25rem;
+  box-sizing: border-box;
+}
+
+.adavatages-wrap {
+  @include min-max(320px, 1440px);
+  width: 100%;
+  padding: 0 7.813rem;
+
+  box-sizing: border-box;
+}
+
+
+
+
+body, 
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: 'Grandis Extended';
+  font-weight: 700;
+  color: $dark-jungle-green;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p, 
+span,
+a {
+  color: $dark-jungle-green;
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+@media (max-width: 1350px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1190px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+
+  .wrap {
+    padding: 0 5.938rem;
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 460px) {
+
+  html {
+    font-size: 100%;
+  }
+  .wrap {
+    padding: 0 2.813rem;
+  }
+}
+
+@media (max-width: 380px) {
+html {
+  font-size: 90%;
+}
+}
+

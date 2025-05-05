@@ -1,0 +1,119 @@
+.contacts {
+  padding: 2.813rem 0 2.3rem 0; 
+
+  h2 {
+    font-family: "Grandis Extended", sans-serif;
+    font-size: 3rem;            
+    font-weight: 700;
+    line-height: 3.625rem;      
+    margin-bottom: 2.125rem;    
+  }
+
+  &__sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;                  
+  }
+
+  &__section {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;              
+    text-decoration: none;
+
+    &-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3.6875rem;         
+      height: 3.75rem;        
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &-text {
+      font-family: "Gilroy", sans-serif;
+      font-size: 1.5rem;       
+      font-weight: 500;
+      line-height: 1.8125rem;   
+      color: $rangoon-green;
+    }
+  }
+}
+
+.phone {
+  background-image: url('#{$base-url}/assets/icons/phone.svg');
+  // background-image: url('../../assets/icons/phone.svg');
+}
+
+.mail {
+  background-image: url('#{$base-url}/assets/icons/mail.svg');
+  // background-image: url('../../assets/icons/mail.svg');
+}
+
+.place {
+  background-image: url('#{$base-url}/assets/icons/map.svg');
+  //  background-image: url('../../assets/icons/map.svg');
+}
+
+@media (max-width: 1024px) {
+  .contacts {
+    padding: 2.688rem 0 2.844rem 0; 
+  
+    h2 {
+      font-size: 2.25rem;            
+      line-height: 2.875rem;      
+      margin-bottom: 1.5rem;    
+    }
+  
+    &__sections {
+      gap: 1.375rem;                  
+    }
+  
+    &__section {
+      gap: 1.875rem;              
+  
+      &-icon {
+        width: 2.063rem;         
+        height: 2.063rem;        
+      }
+  
+      &-text {
+        font-size: 1.25rem;       
+        line-height: 1.5rem;   
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .contacts {
+    padding: 1.125rem 0 2.375rem 0; 
+  
+    h2 {
+      font-size: 1.25rem;            
+      line-height: 1.625rem;      
+      margin-bottom: 0.625rem;    
+    }
+  
+    &__sections {
+      gap: 0.625rem;                  
+    }
+  
+    &__section {
+      gap: 1.75rem;              
+  
+      &-icon {
+        width: 1.75rem;         
+        height: 1.75rem;        
+      }
+  
+      &-text {
+        font-size: 1rem;       
+        line-height: 1.188rem;   
+      }
+    }
+  }
+}
+

@@ -1,0 +1,110 @@
+.grant {
+  padding: 4.25rem 0 5.375rem 0;
+  font-family: "Unbounded", sans-serif;
+  //  background: url(../../assets/img/grant-background.png) no-repeat;
+  background: url(#{$base-url}/assets/img/grant-background.png) no-repeat;
+  background-position: top 4.25rem right 4.325rem;
+  background-size: 33.769rem 22.813rem;
+
+  &__title {
+    font-size: 3rem;
+    width: 33.438rem;
+    line-height: 3.813rem;
+    font-weight: 700;
+    margin-bottom: 1.125rem;
+  }
+
+  &__paragraph-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    width: 41.625rem;
+margin-bottom: 2.7rem;
+  }
+
+  &__paragraph-span {
+    font-weight: 700;
+font-size: 2rem;
+line-height: 2.5rem;
+color: $blue-lotus;
+
+  }
+
+  &-btn {
+    @include btn($blue-lotus, $white, 2.25rem, 0.531rem, 11.406rem, 0.831rem, 11.406rem,  6.25rem);
+    text-decoration: underline;
+    text-decoration-color: $white;
+    text-underline-offset: 0.5rem;
+    font-family:  "Gilroy", sans-serif;;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grant {
+    padding: 4.75rem 0 4.375rem 0;
+    background-position: top 5rem right 2.3rem;
+    background-size: 25.688rem 17.375rem;
+  
+    &__title {
+      font-size: 2.25rem;
+      width: 25.313rem;
+      line-height: 2.875rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    &__paragraph-text {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      width: 25.313rem;
+  margin-bottom: 2.188rem;
+    }
+  
+    &__paragraph-span {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  
+    }
+  
+    &-btn {
+      @include btn($blue-lotus, $white, 1.25rem, 0.969rem, 9.219rem, 0.969rem, 9.219rem,  6.25rem);
+      text-underline-offset: 0.3rem;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .grant {
+    padding: 1.938rem 0 15.75rem 0;
+    background-position: bottom 1.2rem center ;
+    background-size: 20.313rem 13.688rem;
+  
+    &__title {
+      font-size: 1.5rem;
+      width: 100%;
+      line-height: 1.938rem;
+      margin-bottom: 1rem;
+    }
+  
+    &__paragraph-text {
+      font-size: 0.875rem;
+      line-height: 1.063rem;
+      width: 100%;
+  margin-bottom: 1rem;
+    }
+  
+    &__paragraph-span {
+      font-size: 0.875rem;
+      line-height: 1.063rem;
+  
+    }
+  
+    &-btn {
+      @include btn($blue-lotus, $white, 1.25rem, 0.906rem, 4rem, 0.906rem, 4rem,  6.25rem);
+      text-underline-offset: 0.3rem;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

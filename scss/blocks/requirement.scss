@@ -1,0 +1,55 @@
+.requirement {
+  padding: 2.5rem 0;
+  background: $blue-lotus;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.375rem;
+
+    &-paragraph {
+      font-family: "Gilroy", sans-serif;
+      color: $white;
+      font-weight: 600;
+      font-size: 2.25rem;
+      text-transform: uppercase;
+text-align: center;
+    }
+
+    &-span {
+      font-weight: 700;
+      color: $white;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .requirement {
+    padding: 2.25rem 0 3.563rem 0;
+  
+    &__text {
+      gap: 1.625rem;
+  
+      &-paragraph {
+        font-size: 1.5rem;
+      }
+  
+    }
+}
+}
+
+@media (max-width: 460px) {
+  .requirement {
+    padding: 1.125rem 0;
+  
+    &__text {
+      gap: 1.063rem;
+  
+      &-paragraph {
+        font-size: 1rem;
+      }
+  
+    }
+}
+}
+

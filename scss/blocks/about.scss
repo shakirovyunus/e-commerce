@@ -1,0 +1,74 @@
+.about {
+  padding: 2.813rem 0;
+  background: $ebony-clay;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.313rem;
+
+    &-paragraph {
+      font-size: 2.25rem;
+      color: $white;
+      text-align: center;
+      align-self: center;
+      width: 100%;
+      padding-bottom: 1.313rem;
+      border-bottom: 0.063rem solid $white;
+ 
+
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+     
+    }  
+
+    &-text {
+      width: 59.875rem;
+    }
+
+    &-price {
+      width: 42.063rem;
+    }
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 1.875rem 0;
+  
+    &__container {
+      gap: 0.875rem;
+      padding: 0 4rem;
+  
+      &-paragraph {
+        font-size: 1.25rem;
+        padding-bottom: 0.875rem;
+       
+      }  
+  
+      &-text,
+      &-price {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .about {
+    padding: 1.625rem 0;
+  
+    &__container {
+      padding: 0 1rem;
+  
+      &-paragraph {
+        font-size: 0.875rem;
+        line-height: 1rem;
+       
+      }  
+    }
+  }
+}
