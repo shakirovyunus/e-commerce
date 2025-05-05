@@ -1,6 +1,5 @@
 .header {
   position: relative;
-  // background: url(../../assets/icons/intro-line.svg) no-repeat;
   background: url(#{$base-url}/assets/icons/intro-line.svg) no-repeat;
   background-size: auto;
   background-position: top 0.813rem right 0;
@@ -25,7 +24,6 @@
 
 .intro {
   padding: 12.625rem 0 6.813rem 0;
-  // background: url(../../assets/img/intro-background.png) no-repeat;
   background: url(#{$base-url}/assets/img/intro-background.png) no-repeat;
   background-size: 32.75rem 24.125rem;
   background-position: bottom 3.563rem right 0;
@@ -64,7 +62,6 @@
 
 @media (max-width: 1024px) {
   .header {
-    // background: url(../../assets/icons/intro-line-tablet.svg) no-repeat;
     background: url(#{$base-url}/assets/icons/intro-line-tablet.svg) no-repeat;
     background-size: auto;
   background-position: top 2.313rem right 0;
@@ -105,7 +102,6 @@
 
 @media (max-width: 460px) {
   .header {
-    // background: url(../../assets/icons/intro-line-mobile.svg) no-repeat;
     background: url(#{$base-url}/assets/icons/intro-line-mobile.svg) no-repeat;
     background-size: auto;
   background-position: top 0 right 0;

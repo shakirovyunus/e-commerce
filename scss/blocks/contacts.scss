@@ -44,17 +44,14 @@
 
 .phone {
   background-image: url('#{$base-url}/assets/icons/phone.svg');
-  // background-image: url('../../assets/icons/phone.svg');
 }
 
 .mail {
   background-image: url('#{$base-url}/assets/icons/mail.svg');
-  // background-image: url('../../assets/icons/mail.svg');
 }
 
 .place {
   background-image: url('#{$base-url}/assets/icons/map.svg');
-  //  background-image: url('../../assets/icons/map.svg');
 }
 
 @media (max-width: 1024px) {

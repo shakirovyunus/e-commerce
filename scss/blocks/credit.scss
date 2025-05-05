@@ -7,7 +7,6 @@
   &::before {
     content: '';
     position: absolute;
-    // background-image: url(../../assets/icons/credit__line.svg);
     background-image: url(#{$base-url}/assets/icons/credit__line.svg);
     bottom: 2.314rem;
     right: 11.181rem;
@@ -45,7 +44,8 @@
         font-weight: 600;
         text-decoration-color: $ebony-clay;
         text-underline-offset: 0.5rem;
-        font-family:  "Gilroy", sans-serif;;
+        font-family:  "Gilroy", sans-serif;
+        z-index: 10;
       }
   }
 
@@ -56,7 +56,6 @@
     padding: 2.5rem 0;
   
     &::before {
-      // background-image: url(../../assets/icons/credit-tablet.svg);
       background-image: url(#{$base-url}/assets/icons/credit-tablet.svg);
       bottom: 2.5rem;
       right: 11.181rem;
@@ -79,6 +78,7 @@
         &-btn {
           @include btn($white, $ebony-clay, 1.25rem, 0.875rem, 6.063rem, 0.875rem, 6.063rem,  6.25rem);
           text-underline-offset: 0.3rem;
+          z-index: 10;
 
         }
     }
@@ -108,6 +108,7 @@
         &-btn {
           @include btn($white, $ebony-clay, 1.25rem, 0.344rem, 2.688rem, 0.644rem, 2.688rem,  2.594rem);
           text-underline-offset: 0.3rem;
+          z-index: 10;
         }
     }
   

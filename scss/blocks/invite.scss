@@ -1,6 +1,5 @@
 .invite {
   padding: 4.125rem 0 3.688rem 0;
-  // background: url(../../assets/img/invite-background.png) no-repeat;
   background: url(#{$base-url}/assets/img/invite-background.png) no-repeat;
   background-size: contain;
   background-position: top 0 right 0;
@@ -45,7 +44,6 @@
       &::before {
         content: "";
         position: absolute;
-        // background-image: url(../../assets/icons/invite-line.svg);
         background-image: url(#{$base-url}/assets/icons/invite-line.svg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -61,7 +59,6 @@
 @media (max-width: 1024px) {
   .invite {
     padding: 1.875rem 0 2.625rem 0;
-    // background: url(../../assets/img/invite-background-tablet.png) no-repeat;
     background: url(#{$base-url}/assets/img/invite-background-tablet.png) no-repeat;
     background-size: contain;
     background-position: top 0 right 0;
@@ -89,7 +86,6 @@
 
       &-wrapp {
         &::before {
-          // background-image: url(../../assets/icons/invite-line-tablet.svg);
           background-image: url(#{$base-url}/assets/icons/invite-line-tablet.svg);
           background-repeat: no-repeat;
         }
@@ -101,7 +97,6 @@
 @media (max-width: 460px) {
   .invite {
     padding: 1.313rem 0 21.9rem 0;
-    // background: url(../../assets/img/invite-background-mobile.png) no-repeat;
     background: url(#{$base-url}/assets/img/invite-background-mobile.png) no-repeat;
     background-size: contain;
     background-position: top 100% right 0;
@@ -132,7 +127,6 @@
 
       &-wrapp {
         &::before {
-          // background-image: url(../../assets/icons/invite-line-mobile.svg);
           background-image: url(#{$base-url}/assets/icons/invite-line-mobile.svg);
           background-repeat: no-repeat;
         }
