@@ -74,6 +74,7 @@ color: $blue-lotus;
 
 @media (max-width: 460px) {
   .grant {
+    position: relative;
     padding: 1.938rem 0 15.75rem 0;
     background-position: bottom 1.2rem center ;
     background-size: 20.313rem 13.688rem;
@@ -99,13 +100,15 @@ color: $blue-lotus;
     }
   
     &-btn {
+      position: relative;
+  z-index: 10;
       @include btn($blue-lotus, $white, 1.25rem, 0.906rem, 4rem, 0.906rem, 4rem,  6.25rem);
       text-underline-offset: 0.3rem;
       display: flex;
       justify-content: center; 
       align-items: center;
       text-align: center;
-      z-index: 10;
+      
     }
   }
 }
